@@ -3,108 +3,172 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ref420 Menu</title>
+  <title>Menu</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      background-color: #fdfaf6; /* light cream */
-    }
-  </style>
 </head>
-<body class="text-[#3c2f2f] p-6 font-sans">
-  <div class="max-w-5xl mx-auto">
-    <h1 class="text-4xl font-bold mb-6 text-center text-[#6f4e37]">Ref420 Home Baked Menu</h1>
+<body class="bg-[#fff8f0] text-[#4a3c31] px-6 py-10 font-sans">
+<div class="flex justify-center mb-8">
+  <img src="logo1.png" alt="Chef420 Logo" class="h-44 w-72 rounded-xl shadow-md" />
+</div>
 
-    <!-- Pound Cake -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Pound Cake</h2>
-      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
-        <thead><tr class="text-[#6b4c3b]"><th></th><th>6”</th><th>9”</th></tr></thead>
-        <tbody class="text-[#4a3c31]">
-          <tr><td>Buttermilk</td><td>RM 33</td><td>RM 45</td></tr>
-          <tr><td>Chocolate Moist Ganache</td><td>RM 38</td><td>RM 50</td></tr>
-          <tr><td>Coconut Pandan Hawaiian</td><td>RM 38</td><td>RM 50</td></tr>
-          <tr><td>Kek Pisang</td><td>–</td><td>–</td></tr>
-          <tr><td>Original | Chocolate | Marble</td><td>RM 28</td><td>RM 40</td></tr>
-        </tbody>
-      </table>
-    </section>
+  <header class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-[#8b5c42] mb-2">Kek & Kuki Menu</h1>
+    <p class="text-[#6b4c3b]">Delicious homemade treats made with love</p>
+  </header>
 
-    <!-- Brownies -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Brownies</h2>
-      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
-        <thead><tr class="text-[#6b4c3b]"><th></th><th>6”</th><th>9”</th></tr></thead>
-        <tbody class="text-[#4a3c31]">
-          <tr><td>Regular</td><td>RM 28</td><td>RM 40</td></tr>
-          <tr><td>Chocolate | Caramel | Matcha</td><td>RM 33</td><td>RM 45</td></tr>
-          <tr><td>Nutella | Marshmallow</td><td>RM 35</td><td>RM 48</td></tr>
-          <tr><td>Brookies</td><td>RM 38</td><td>RM 48</td></tr>
-          <tr><td>*Decoration (per request)</td><td>RM ++</td><td>RM ++</td></tr>
-        </tbody>
-      </table>
-    </section>
+  <!-- Section Template -->
+  <section class="mb-10">
+    <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Pound Cake</h2>
+    <table class="w-full text-sm border-separate border-spacing-y-2 table-fixed">
+      <colgroup>
+        <col class="w-2/3" />
+        <col class="w-1/6 text-center" />
+        <col class="w-1/6 text-center" />
+      </colgroup>
+      <thead>
+        <tr class="text-[#6b4c3b]">
+          <th class="text-left"></th>
+          <th class="text-center">6”</th>
+          <th class="text-center">9”</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Buttermilk</td><td class="text-center">RM 33</td><td class="text-center">RM 45</td></tr>
+        <tr><td>Chocolate Moist Ganache</td><td class="text-center">RM 38</td><td class="text-center">RM 50</td></tr>
+        <tr><td>Coconut Pandan Hawaiian</td><td class="text-center">RM 38</td><td class="text-center">RM 50</td></tr>
+        <tr><td>Kek Pisang</td><td class="text-center"></td><td class="text-center"></td></tr>
+        <tr><td>Original | Chocolate | Marble</td><td class="text-center">RM 28</td><td class="text-center">RM 40</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-    <!-- Gooey Cookies -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Gooey Cookies (4 pcs)</h2>
-      <ul class="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-[#4a3c31]">
-        <li>Chocolate Chips - RM 20</li>
-        <li>Double Chocolate - RM 25</li>
-        <li>Matcha - RM 25</li>
-        <li>Oreo - RM 27</li>
-        <li>Red Velvet Cream Cheese - RM 27</li>
-        <li>Smores - RM 27</li>
-        <li>Assorted - RM 28</li>
-        <li>Cookies - RM 30</li>
-      </ul>
-    </section>
+  <section class="mb-10">
+    <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Brownies</h2>
+    <table class="w-full text-sm border-separate border-spacing-y-2 table-fixed">
+      <colgroup>
+        <col class="w-2/3" />
+        <col class="w-1/6 text-center" />
+        <col class="w-1/6 text-center" />
+      </colgroup>
+      <thead>
+        <tr class="text-[#6b4c3b]">
+          <th class="text-left"></th>
+          <th class="text-center">6"</th>
+          <th class="text-center">9"</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Regular</td><td class="text-center">RM 28</td><td class="text-center">RM 40</td></tr>
+        <tr><td>Topping</td><td class="text-center"></td><td class="text-center"></td></tr>
+        <tr><td>Chocolate | Charamel | Matcha</td><td class="text-center">RM 33</td><td class="text-center">RM 45</td></tr>
+        <tr><td>Nutella | Marshmallow</td><td class="text-center">RM 35</td><td class="text-center">RM 48</td></tr>
+        <tr><td>Brookies</td><td class="text-center">RM 38</td><td class="text-center">RM 48</td></tr>
+        <tr><td>*Decoration per request</td><td class="text-center"></td><td class="text-center"></td></tr>
+      </tbody>
+    </table>
+  </section>
 
-    <!-- Cinnamon Rolls -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Cinnamon Rolls</h2>
-      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
-        <thead><tr class="text-[#6b4c3b]"><th>Flavour</th><th>Mini (12pcs)</th><th>Regular (4pcs)</th></tr></thead>
-        <tbody class="text-[#4a3c31]">
-          <tr><td>Icing Sugar</td><td>RM 38</td><td>RM 23</td></tr>
-          <tr><td>Chocolate</td><td>RM 40</td><td>RM 25</td></tr>
-          <tr><td>Nutella</td><td>RM 45</td><td>RM 30</td></tr>
-          <tr><td>Matcha</td><td>RM 45</td><td>RM 30</td></tr>
-          <tr><td>Cream Cheese</td><td>RM 45</td><td>RM 30</td></tr>
-          <tr><td>Oreo</td><td>RM 45</td><td>RM 30</td></tr>
-          <tr><td>Assorted</td><td>RM 48</td><td>RM 33</td></tr>
-        </tbody>
-      </table>
-    </section>
+  <!-- ✅ Fixed Gooey Cookies Section -->
+  <section class="mb-10">
+    <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Gooey Cookies (4 PCS)</h2>
+    <table class="w-full text-sm border-separate border-spacing-y-2 table-fixed">
+      <colgroup>
+        <col class="w-2/3" />
+        <col class="w-1/6 text-center" />
+        <col class="w-1/6 text-center" />
+      </colgroup>
+      <thead>
+        <tr class="text-[#6b4c3b]">
+          <th class="text-left"></th>
+          <th class="text-center"></th>
+          <th class="text-center"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Chocolate Chip</td><td class="text-center"></td><td class="text-center">RM 20</td></tr>
+        <tr><td>Double Chocolate</td><td class="text-center"></td><td class="text-center">RM 25</td></tr>
+        <tr><td>Matcha</td><td class="text-center"></td><td class="text-center">RM 25</td></tr>
+        <tr><td>Oreo</td><td class="text-center"></td><td class="text-center">RM 27</td></tr>
+        <tr><td>Red Velvet Cream Cheese</td><td class="text-center"></td><td class="text-center">RM 27</td></tr>
+        <tr><td>Smores</td><td class="text-center"></td><td class="text-center">RM 27</td></tr>
+        <tr><td>Assorted</td><td class="text-center"></td><td class="text-center">RM 28</td></tr>
+        <tr><td>Crookies</td><td class="text-center"></td><td class="text-center">RM 30</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-    <!-- Bread Pudding -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Butter Bread Pudding with Custard Sauce</h2>
-      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
-        <thead><tr class="text-[#6b4c3b]"><th>Flavour</th><th>Price</th></tr></thead>
-        <tbody class="text-[#4a3c31]">
-          <tr><td>Small</td><td>RM 10</td></tr>
-          <tr><td>Regular</td><td>RM 15</td></tr>
-          <tr><td>Big</td><td>RM 35</td></tr>
-          <tr><td>Party Box</td><td>RM 50</td></tr>
-        </tbody>
-      </table>
-    </section>
+  <section class="mb-10">
+    <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Cinnamon Rolls</h2>
+    <table class="w-full text-sm border-separate border-spacing-y-2 table-fixed">
+      <colgroup>
+        <col class="w-2/3" />
+        <col class="w-1/6 text-center" />
+        <col class="w-1/6 text-center" />
+      </colgroup>
+      <thead>
+        <tr class="text-[#6b4c3b]">
+          <th class="text-left"></th>
+          <th class="text-center">Mini (12 pcs / Box)</th>
+          <th class="text-center">Regular (4 pcs / Box)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Icing Sugar</td><td class="text-center">RM 38</td><td class="text-center">RM 23</td></tr>
+        <tr><td>Chocolate</td><td class="text-center">RM 40</td><td class="text-center">RM 25</td></tr>
+        <tr><td>Nutella</td><td class="text-center">RM 45</td><td class="text-center">RM 30</td></tr>
+        <tr><td>Matcha</td><td class="text-center">RM 45</td><td class="text-center">RM 30</td></tr>
+        <tr><td>Cream Cheese</td><td class="text-center">RM 45</td><td class="text-center">RM 30</td></tr>
+        <tr><td>Oreo</td><td class="text-center">RM 45</td><td class="text-center">RM 30</td></tr>
+        <tr><td>Assorted</td><td class="text-center">RM 48</td><td class="text-center">RM 33</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-    <!-- Lasagna -->
-    <section>
-      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Lasagna</h2>
-      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
-        <thead><tr class="text-[#6b4c3b]"><th>Size</th><th>Pasta</th><th>Bread</th></tr></thead>
-        <tbody class="text-[#4a3c31]">
-          <tr><td>Small</td><td>RM 16</td><td>RM 10</td></tr>
-          <tr><td>Regular</td><td>RM 20</td><td>RM 15</td></tr>
-          <tr><td>Big</td><td>RM 40</td><td>RM 35</td></tr>
-          <tr><td>Party Box</td><td>RM 55</td><td>RM 50</td></tr>
-        </tbody>
-      </table>
-    </section>
-  </div>
+  <section class="mb-10">
+    <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Butter Bread Pudding With Custard Sauce</h2>
+    <table class="w-full text-sm border-separate border-spacing-y-2 table-fixed">
+      <colgroup>
+        <col class="w-2/3" />
+        <col class="w-1/6 text-center" />
+        <col class="w-1/6 text-center" />
+      </colgroup>
+      <thead>
+        <tr class="text-[#6b4c3b]">
+          <th class="text-left"></th>
+          <th class="text-center"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Small</td><td class="text-center"></td><td class="text-center">RM 10</td></tr>
+        <tr><td>Regular</td><td class="text-center"></td><td class="text-center">RM 15</td></tr>
+        <tr><td>Big</td><td class="text-center"></td><td class="text-center">RM 35</td></tr>
+        <tr><td>Party Box</td><td class="text-center"></td><td class="text-center">RM 50</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Lasagna</h2>
+    <table class="w-full text-sm border-separate border-spacing-y-2 table-fixed">
+      <colgroup>
+        <col class="w-2/3" />
+        <col class="w-1/6 text-center" />
+        <col class="w-1/6 text-center" />
+      </colgroup>
+      <thead>
+        <tr class="text-[#6b4c3b]">
+          <th class="text-left"></th>
+          <th class="text-center">Pasta</th>
+          <th class="text-center">Bread</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Small</td><td class="text-center">RM 16</td><td class="text-center">RM 10</td></tr>
+        <tr><td>Regular</td><td class="text-center">RM 20</td><td class="text-center">RM 15</td></tr>
+        <tr><td>Big</td><td class="text-center">RM 40</td><td class="text-center">RM 35</td></tr>
+        <tr><td>Party Box</td><td class="text-center">RM 55</td><td class="text-center">RM 50</td></tr>
+      </tbody>
+    </table>
+  </section>
 </body>
 </html>
-
