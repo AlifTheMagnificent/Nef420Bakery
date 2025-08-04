@@ -3,90 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alif's Kitchen Menu</title>
+  <title>Ref420 Menu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fafafa;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #e74c3c;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    .menu {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    .category {
-      margin-bottom: 2rem;
-    }
-    .category h2 {
-      border-bottom: 2px solid #e74c3c;
-      padding-bottom: 0.5rem;
-      color: #333;
-    }
-    .item {
-      display: flex;
-      justify-content: space-between;
-      padding: 0.5rem 0;
-      border-bottom: 1px dashed #ccc;
-    }
-    .item-name {
-      font-weight: bold;
-    }
-    .item-price {
-      color: #e74c3c;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #777;
-      padding: 1rem;
-      background-color: #f0f0f0;
+      background-color: #fdfaf6; /* light cream */
     }
   </style>
 </head>
-<body>
+<body class="text-[#3c2f2f] p-6 font-sans">
+  <div class="max-w-5xl mx-auto">
+    <h1 class="text-4xl font-bold mb-6 text-center text-[#6f4e37]">Ref420 Home Baked Menu</h1>
 
-  <header>
-    <h1>Alif's Kitchen</h1>
-    <p>Delicious Meals, Affordable Prices</p>
-  </header>
+    <!-- Pound Cake -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Pound Cake</h2>
+      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
+        <thead><tr class="text-[#6b4c3b]"><th></th><th>6”</th><th>9”</th></tr></thead>
+        <tbody class="text-[#4a3c31]">
+          <tr><td>Buttermilk</td><td>RM 33</td><td>RM 45</td></tr>
+          <tr><td>Chocolate Moist Ganache</td><td>RM 38</td><td>RM 50</td></tr>
+          <tr><td>Coconut Pandan Hawaiian</td><td>RM 38</td><td>RM 50</td></tr>
+          <tr><td>Kek Pisang</td><td>–</td><td>–</td></tr>
+          <tr><td>Original | Chocolate | Marble</td><td>RM 28</td><td>RM 40</td></tr>
+        </tbody>
+      </table>
+    </section>
 
-  <div class="menu">
-    <div class="category">
-      <h2>Main Dishes</h2>
-      <div class="item">
-        <span class="item-name">Nasi Goreng</span>
-        <span class="item-price">RM8.00</span>
-      </div>
-      <div class="item">
-        <span class="item-name">Mee Goreng Mamak</span>
-        <span class="item-price">RM7.50</span>
-      </div>
-    </div>
+    <!-- Brownies -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Brownies</h2>
+      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
+        <thead><tr class="text-[#6b4c3b]"><th></th><th>6”</th><th>9”</th></tr></thead>
+        <tbody class="text-[#4a3c31]">
+          <tr><td>Regular</td><td>RM 28</td><td>RM 40</td></tr>
+          <tr><td>Chocolate | Caramel | Matcha</td><td>RM 33</td><td>RM 45</td></tr>
+          <tr><td>Nutella | Marshmallow</td><td>RM 35</td><td>RM 48</td></tr>
+          <tr><td>Brookies</td><td>RM 38</td><td>RM 48</td></tr>
+          <tr><td>*Decoration (per request)</td><td>RM ++</td><td>RM ++</td></tr>
+        </tbody>
+      </table>
+    </section>
 
-    <div class="category">
-      <h2>Drinks</h2>
-      <div class="item">
-        <span class="item-name">Teh Tarik</span>
-        <span class="item-price">RM2.00</span>
-      </div>
-      <div class="item">
-        <span class="item-name">Iced Milo</span>
-        <span class="item-price">RM2.50</span>
-      </div>
-    </div>
+    <!-- Gooey Cookies -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Gooey Cookies (4 pcs)</h2>
+      <ul class="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-[#4a3c31]">
+        <li>Chocolate Chips - RM 20</li>
+        <li>Double Chocolate - RM 25</li>
+        <li>Matcha - RM 25</li>
+        <li>Oreo - RM 27</li>
+        <li>Red Velvet Cream Cheese - RM 27</li>
+        <li>Smores - RM 27</li>
+        <li>Assorted - RM 28</li>
+        <li>Cookies - RM 30</li>
+      </ul>
+    </section>
+
+    <!-- Cinnamon Rolls -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Cinnamon Rolls</h2>
+      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
+        <thead><tr class="text-[#6b4c3b]"><th>Flavour</th><th>Mini (12pcs)</th><th>Regular (4pcs)</th></tr></thead>
+        <tbody class="text-[#4a3c31]">
+          <tr><td>Icing Sugar</td><td>RM 38</td><td>RM 23</td></tr>
+          <tr><td>Chocolate</td><td>RM 40</td><td>RM 25</td></tr>
+          <tr><td>Nutella</td><td>RM 45</td><td>RM 30</td></tr>
+          <tr><td>Matcha</td><td>RM 45</td><td>RM 30</td></tr>
+          <tr><td>Cream Cheese</td><td>RM 45</td><td>RM 30</td></tr>
+          <tr><td>Oreo</td><td>RM 45</td><td>RM 30</td></tr>
+          <tr><td>Assorted</td><td>RM 48</td><td>RM 33</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Bread Pudding -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Butter Bread Pudding with Custard Sauce</h2>
+      <ul class="text-sm space-y-1 text-[#4a3c31]">
+        <li>Small - RM 10</li>
+        <li>Regular - RM 15</li>
+        <li>Big - RM 35</li>
+        <li>Party Box - RM 50</li>
+      </ul>
+    </section>
+
+    <!-- Lasagna -->
+    <section>
+      <h2 class="text-2xl font-semibold text-[#8b5c42] border-b border-[#d2b48c] pb-2 mb-4">Lasagna</h2>
+      <table class="w-full text-left text-sm border-separate border-spacing-y-2">
+        <thead><tr class="text-[#6b4c3b]"><th>Size</th><th>Pasta</th><th>Bread</th></tr></thead>
+        <tbody class="text-[#4a3c31]">
+          <tr><td>Small</td><td>RM 16</td><td>RM 10</td></tr>
+          <tr><td>Regular</td><td>RM 20</td><td>RM 15</td></tr>
+          <tr><td>Big</td><td>RM 40</td><td>RM 35</td></tr>
+          <tr><td>Party Box</td><td>RM 55</td><td>RM 50</td></tr>
+        </tbody>
+      </table>
+    </section>
   </div>
-
-  <footer>
-    &copy; 2025 Alif's Kitchen. All rights reserved.
-  </footer>
-
 </body>
 </html>
